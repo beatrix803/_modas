@@ -1,0 +1,217 @@
+/* Estilo global */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Header */
+.header {
+  background-color: #0a0c6d;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+/* Banner */
+.banner {
+  background-image: url('https://via.placeholder.com/1200x400?text=Moda+Banner');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner-texto {
+  background: #0a0c6d6e;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+
+/* Coleções */
+.colecoes {
+  padding: 2rem;
+  text-align: center;
+}
+
+.colecao-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.colecao-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.footer {
+  background-color: #0a0c6d;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  width: 160px; 
+  height: auto;
+}
+/* Estilo global */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #e0e0e0;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #FFD700; /* Cor dourada ao passar o mouse */
+}
+
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* Header */
+.header {
+  background-color: #0a0c6d;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header nav a:hover {
+  color: #cad7ff; /* Rosa claro no hover */
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  background-image: url('https://via.placeholder.com/1200x400?text=Moda+Banner');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background-size 0.5s ease;
+}
+
+.banner:hover {
+  background-size: 110%; /* Efeito de zoom suave no hover */
+}
+
+.banner-texto {
+  background: rgba(10, 12, 109, 0.8);
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.banner-texto:hover {
+  background: rgba(255, 255, 255, 0.6); /* Altera o fundo ao passar o mouse */
+  color: #0a0c6d; /* Cor do texto muda no hover */
+}
+
+/* Coleções */
+.colecoes {
+  padding: 2rem;
+  text-align: center;
+}
+
+.colecao-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.colecao-item {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.colecao-item:hover {
+  transform: translateY(-5px); /* Sobe o card um pouco */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* Aumenta a sombra para dar destaque */
+}
+
+/* Footer */
+.footer {
+  background-color: #0a0c6d;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.footer a {
+  color: #FFF;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #cad7ff; /* Dourado no hover */
+  text-decoration: underline;
+}
+
+/* Logo */
+.logo {
+  width: 160px; 
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.1); /* Aumenta a logo levemente no hover */
+}
+
+
